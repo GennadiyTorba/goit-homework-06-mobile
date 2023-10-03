@@ -1,0 +1,99 @@
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  /*Portfolio*/
+
+  .porfolio-card {
+    width: 356px;
+    height: 420px;
+  }
+  .portfolio-menu {
+    row-gap: 72px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .portfolio-menu .porfolio-card {
+    width: calc((100% - 48px) / 2);
+  }
+
+  /*Footer*/
+
+  .footer-wrapper {
+    padding-top: 97.5px;
+    padding-left: 108px;
+    padding-bottom: 96px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  .footer-container-logo,
+  .footer-container {
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
+  .footer-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .form-footer-wrapper {
+    align-items: baseline;
+  }
+  .form-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+/*Desctop*/
+@media screen and (min-width: 1158px) {
+  /*Portfolio*/
+  .portfolio-container {
+    padding: 0 156px;
+
+    margin: 0;
+  }
+  .porfolio-card {
+    width: 360px;
+    height: 420px;
+  }
+  .portfolio-menu {
+    row-gap: 48px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .portfolio-menu .porfolio-card {
+    width: calc((100% - 48px) / 3);
+  }
+
+  /*Footer*/
+
+  .footer-container-logo {
+    display: flex;
+    max-width: 264px;
+    margin-right: 120px;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    margin-right: 80px;
+    flex-direction: column;
+    max-width: 208px;
+  }
+  .footer-wrapper {
+    max-width: 1440px;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .footer {
+    display: flex;
+    padding-top: 101.5px;
+    padding-left: 156px;
+    padding-bottom: 100px;
+  }
+}
