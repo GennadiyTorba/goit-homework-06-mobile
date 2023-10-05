@@ -1,7 +1,73 @@
 /*Tablet*/
 @media screen and (min-width: 768px) {
-  /*Portfolio*/
+  /*Studio*/
+  .studio-container {
+    padding: 112px 0;
+    width: 768px;
+  }
+  .heero-first {
+    text-align: center;
+    margin: 0 40px 36px;
+    max-width: 496px;
+    height: 120px;
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
 
+  /*Job*/
+  .container-job {
+    width: 768px;
+  }
+  .job-menu {
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .job-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 288px;
+  }
+  /*Our Team*/
+  .section-contacts {
+    padding: 0;
+  }
+  .contact-container {
+    padding: 96px 108px;
+    width: 768px;
+  }
+  .team-cards-menu {
+    row-gap: 64px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .team-card {
+    width: 264px;
+    flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
+  .team-card-text {
+    max-width: 264px;
+  }
+  .social-media-menu {
+    max-width: 264px;
+  }
+
+  /*Portfolio*/
+  .section-portfolio {
+    padding: 0;
+  }
+  .portfolio-container {
+    padding: 96px 16px 96px;
+    width: 768px;
+  }
   .porfolio-card {
     width: 356px;
     height: 420px;
@@ -12,7 +78,8 @@
     justify-content: center;
   }
   .portfolio-menu .porfolio-card {
-    width: calc((100% - 48px) / 2);
+    width: 356px;
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   /*Footer*/
@@ -33,7 +100,7 @@
     margin-bottom: 48px;
   }
   .footer-item {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
   .form-footer-wrapper {
     align-items: baseline;
@@ -43,14 +110,106 @@
     flex-direction: row;
     gap: 24px;
   }
+
+  /*Modal*/
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
+  .input-module {
+    width: 360px;
+  }
 }
 
 /*Desctop*/
 @media screen and (min-width: 1158px) {
+  /*Studio*/
+  .studio-container {
+    padding: 188px 0;
+    width: 1158px;
+  }
+  .heero-first {
+    text-align: center;
+    margin: 0 40px 48px;
+    max-width: 496px;
+    height: 120px;
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+
+  /*Job*/
+  .container-job {
+    padding: 120px 15px;
+    display: block;
+    width: 1158px;
+  }
+  .job-menu {
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+  }
+  .job-list {
+    width: 264px;
+    display: inline-block;
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .job-list-icon {
+    display: flex;
+  }
+  .heero-third {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  /*Our Team*/
+
+  .section-contacts {
+    width: 1158px;
+    display: block;
+    padding: 0;
+    background: #f4f4fd;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .team-cards-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .team-card {
+    display: flex;
+    flex-basis: calc((100% - 72px) / 4);
+    padding: 0px;
+    width: 264px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container {
+    width: 1158px;
+    padding: 120px 15px;
+  }
+
   /*Portfolio*/
   .portfolio-container {
-    padding: 0 156px;
-
+    padding: 120px 15px;
+    width: 1158px;
     margin: 0;
   }
   .porfolio-card {
@@ -63,7 +222,8 @@
     justify-content: center;
   }
   .portfolio-menu .porfolio-card {
-    width: calc((100% - 48px) / 3);
+    width: 360px;
+    flex-basis: calc((100% - 48px) / 3);
   }
 
   /*Footer*/
@@ -84,7 +244,7 @@
     max-width: 208px;
   }
   .footer-wrapper {
-    max-width: 1440px;
+    width: 1158px;
     padding: 0;
     display: flex;
     flex-wrap: nowrap;
