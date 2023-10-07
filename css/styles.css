@@ -111,6 +111,15 @@ main {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
+.heero-third-card {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
 .heero-second {
   color: #2e2f42;
   font-size: 36px;
@@ -215,7 +224,7 @@ main {
   transform: scale(1.5);
 }
 .text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
