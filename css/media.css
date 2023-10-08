@@ -303,6 +303,7 @@
   /*Portfolio*/
   .section-portfolio {
     padding: 120px 15px;
+    align-content: center;
   }
   .portfolio-container {
     width: 1158px;
