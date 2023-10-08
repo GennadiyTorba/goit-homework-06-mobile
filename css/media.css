@@ -281,12 +281,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
+    justify-content: center;
   }
   .team-cards-menu {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 24px;
+    width: 1125px;
   }
   .team-card {
     width: 264px;
@@ -355,5 +353,6 @@
   .footer {
     display: flex;
     padding: 100px 16px;
+    justify-content: center;
   }
 }
