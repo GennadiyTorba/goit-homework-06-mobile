@@ -46,7 +46,6 @@ main {
   padding: 0;
 }
 .contact-container {
-  padding: 96px 28px 96px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -110,6 +109,7 @@ main {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 8px;
+  text-align: center;
 }
 .heero-third-card {
   font-size: 20px;
@@ -142,7 +142,6 @@ main {
   margin: -1px;
 }
 .container-job {
-  padding: 96px 16px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -174,6 +173,15 @@ main {
   width: 64px;
   height: 64px;
   position: relative;
+}
+.text-job {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .social-media-menu {
   margin: 8px auto 0;
@@ -382,12 +390,13 @@ main {
   max-width: 1440px;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 96px 16px;
   background: #fff;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .section-contacts {
+  padding: 96px 28px 96px;
   align-items: center;
   margin: 0 auto;
   height: 100%;
@@ -406,7 +415,7 @@ main {
   max-width: 1440px;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 96px 16px 96px;
   background: #fff;
 }
 
@@ -480,7 +489,7 @@ main {
 }
 .portfolio-container {
   border-top: none;
-  padding: 96px 16px 96px;
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -864,6 +873,7 @@ button {
   align-items: center;
   max-width: 165px;
   height: 40px;
+  padding: 8px 24px;
 }
 .footer-button-svg {
   margin-left: 16px;
